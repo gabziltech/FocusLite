@@ -23,6 +23,9 @@
         <activity
             android:name=".NewAccount" android:parentActivityName=".SignIn"
             android:label="@string/title_activity_new_account" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gabzil.focuslite.SignIn" />
         </activity>
         <activity
             android:name=".SignIn" android:parentActivityName=".StartPage"

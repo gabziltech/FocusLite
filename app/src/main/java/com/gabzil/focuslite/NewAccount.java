@@ -73,4 +73,12 @@ public class NewAccount extends Activity {
             }
         });
     }
+
+    @Override
+    public void onBackPressed() {
+        Intent returnIntent = new Intent(NewAccount.this,SignIn.class);
+        NewAccount.this.finish();
+        startActivity(returnIntent);
+    }
+
 }
