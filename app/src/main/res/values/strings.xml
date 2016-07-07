@@ -24,4 +24,34 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_device_scan">DeviceScanActivity</string>
 
+    <string name="swing_prompt">Choose a swing Angle</string>
+    <string-array name="swing_arrays">
+        <item>-180</item>
+        <item>-150</item>
+        <item>-120</item>
+        <item>-90</item>
+        <item>-75</item>
+        <item>-60</item>
+        <item>-45</item>
+        <item>-30</item>
+        <item>-15</item>
+        <item>0</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>75</item>
+        <item>90</item>
+        <item>120</item>
+        <item>150</item>
+        <item>180</item>
+    </string-array>
+
+    <string name="speed_prompt">Choose a Speed of Animation</string>
+    <string-array name="speed_arrays">
+        <item>Slow</item>
+        <item>Medium</item>
+        <item>Fast</item>
+    </string-array>
+
 </resources>
